@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  monospace;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(33, 0, 151, 0.849), rgba(0, 2, 102, 0.774));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.formBox{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    margin: 6% auto;
+    /* background: rgba(0,0,0,0.4); */
+    background: rgba(18, 0, 82, 0.836);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    margin: 15px auto;
+    margin-top: 35px;
+}
+.title h2{
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.form-group
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.input-group
+{
+    margin: 50px auto;
+    width: 100%;
+}
+
+.icon{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    border-radius: 100vh;
+    margin-top: -5px;
+    background-color: #fff;
+    color: rgb(14, 0, 63);
+    cursor: pointer;
+}
+#icon{
+    margin-left: -40px !important;
+    left: 90%;
+}
+input{
+    height: 35px;
+    width: 80%;
+    margin: auto 0px;
+    border-radius: 30px;
+    padding: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #0e003f;
+    background: #ffffffaf;
+    outline: 0;
+    font-weight: bold;
+}
+::placeholder { /* Most modern browsers support this now. */
+    color: #0e003f;
+   font-weight: bold;
+
+}
+.input-group input#first{
+    padding-left: 65px !important;
+}
+.input-group input#sec{
+    padding-right: 20px !important;
+}
+
+
+.submit-btn{
+    width: 90%;
+    outline: none;
+    height: 50px;
+    margin: 15px auto;
+    font-size: 18px;
+    color: #0e003f;
+    font-weight: bold;
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 6px;
+    cursor: pointer;
+    line-height: 35px;
+}
+.submit-btn:hover{
+    background: rgba(255, 255, 255, 0.685);
+}
